@@ -1,6 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .attribution a {
@@ -80,6 +81,10 @@ body {
   font-weight: 700;
 }
 
+.plan a:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
 .plan p{
   margin-top: 5px;
   color: #8a8a8a;
@@ -93,13 +98,17 @@ body {
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 13px;
   background-color:#1E1FCD;
   color: #fff;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: 0px 5px 14px 0.5px #999999;
   border: 0px;
+}
+
+.button:hover{
+  opacity: 0.6;
 }
 
 .final-button{
@@ -110,8 +119,11 @@ body {
 }
 
 .cancel{
-  font-size:15px;
+  font-size:12px;
   text-decoration: none;
   color:#838383;
   font-weight: 900;
+}
+.cancel:hover{
+  color: black;
 }
