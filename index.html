@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link type="text/css" rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
   <title>Frontend Mentor | Order summary card</title>
 </head>
 
 <body>
   <main>
-    <section class="all">
+    <section id="all">
       <image class="figura" src="images/illustration-hero.svg" width="350" height="171" alt="Illustration-hero"></image>
       <!--usar image com link e não svg-->
-
       <div class="main">
         <div class="texto">
           <h1>Order Summary</h1>
@@ -26,11 +26,11 @@
 
         <div class="plan">
           <image src="images/icon-music.svg" alt="icon-music"></image>
-          <div class="pricePlan">
-            <h2>Annual Plan</h2>
-            <p>$59.99/year</p>
+          <div id="pricePlan">
+            <h2 id='h2'>Annual Plan</h2>
+            <p id='p'>$59.99/year</p>
           </div>
-          <a href="#">Change</a>
+          <a href="#" onclick="Abrir()">Change</a>
         </div>
 
         <div class="final-button">
@@ -45,6 +45,77 @@
         </div>
       </div>
     </section>
+    <section id="page2">
+      <div id="Outrosplanos">
+        <div class="Plans">
+          <div onclick="Close2()" class="one" id="first">
+            <h2>MONTH PLAN</h2>
+            <p style="letter-spacing: 4px; font-size:12px;">LOREM IPSUM</p>
+            <p>-----------------</p>
+            <p class="p-card">$6<sup>99</sup></p>
+            <ul>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit
+                amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+            </ul>
+            <input class="buttons1" value="BUY NOW" type="button" name="input">
+          </div>
+          <div onclick="Close()" class="style">
+            <h2>ANNUAL PLAN</h2>
+            <p style="letter-spacing: 4px; font-size:12px;">LOREM IPSUM</p>
+            <p>-----------------</p>
+            <p class="p-card">$59<sup>99</sup></p>
+            <ul>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+            </ul>
+            <input class="buttons2" value="BUY NOW" type="button" name="input">
+          </div>
+          <div onclick="Close2()" class="one" id="second">
+            <h2>VITAL PLAN</h2>
+            <p style="letter-spacing: 4px; font-size:12px;">LOREM IPSUM</p>
+            <p>-----------------</p>
+            <p class="p-card">$299<sup>99</sup></p>
+            <ul>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+              <li>
+                <image src="images/correct-png-18.png" width="18"></image>Lorem ipsum dolor sit amet
+              </li>
+            </ul>
+            <input class="buttons3" value="BUY NOW" type="button" name="input">
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 </body>
 
