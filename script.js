@@ -19,3 +19,9 @@ function Close2() {
   document.getElementById("h2").innerHTML = "Monthly Plan";
   document.getElementById("p").innerHTML = "$6.99/month";
 }
+function Close3() {
+  document.getElementById("page2").style.display = "none";
+  document.getElementById("all").style.display = "flex";
+  document.getElementById("h2").innerHTML = "Vital Plan";
+  document.getElementById("p").innerHTML = "$299.99";
+}
